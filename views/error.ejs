@@ -1,0 +1,11 @@
+<% layout("/layouts/boilerplate.ejs")%>
+<div class="row">
+    <div class="col-8 offset-2">
+        <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading"><%= err.message %> </h4>
+            <p><%=err.stack %> </p>
+            <hr>
+            <p class="mb-0 text-muted">&copy;2022</p>
+          </div>
+    </div>
+</div>
